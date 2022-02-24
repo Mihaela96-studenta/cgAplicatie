@@ -1,0 +1,38 @@
+p{
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+div{
+    width: 100%;
+    max-width: 20%;
+    max-height: 700px;
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid red;
+    text-align: center;
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid red;
+    float: left;
+    overflow: hidden;
+ 
+    
+}
+div:nth-child(2n+1){
+    background-image: url("bg.jpg");
+    background-color: orange;
+}
+p:hover{
+    color: blueviolet;
+}
+p::first-line{
+    color: darkcyan;
+}
+.culoare{
+    color:saddlebrown;
+}
+#albastru{
+    color:blue;
+}
